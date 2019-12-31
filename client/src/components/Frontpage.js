@@ -105,7 +105,7 @@ class Frontpage extends Component
                         a_id={activities.act_id}
                         filled={activities.filled_places}
                         max={activities.max_places} 
-                        buttonState={(activities.filled_places<=activities.max_places) ? true : false}/>
+                        buttonState={(activities.filled_places==activities.max_places) ? true : false}/>
                     </div>
                   </div>
                 </ul>))
